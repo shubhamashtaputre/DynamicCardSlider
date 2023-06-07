@@ -1,0 +1,5 @@
+<div class="flex-container">
+    <div class="arrow-left-card" (click)="onLeftArrowClick()"><b>&#10094;</b></div>
+    <div *ngFor="let num of range(startNumber, endNumber)" class="card" (click)="onButtonClick(num)">Card {{num}}</div>
+    <div class="arrow-right-card" (click)="onRigthArrowClick()"><b>&#10095;</b></div>
+</div>

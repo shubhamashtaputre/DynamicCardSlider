@@ -1,0 +1,63 @@
+  .cards-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .card {
+    flex: 0 0 200px;
+    height: 95px;
+    margin-right: 0px;
+    background-color: #f2f2f2;
+    scroll-snap-align: start;
+    border: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    /*border: 1px solid gray;*/
+  }
+
+  .card-clicked {
+    flex: 0 0 200px;
+    height: 95px;
+    margin-right: 0px;
+    background-color: blue;
+    scroll-snap-align: start;
+    border: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    /*border: 1px solid gray;*/
+  }
+
+  .arrow-left-card {
+    flex: 0 0 70px;
+    height: 95px;
+    margin-right: 0px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    /*border: 1px solid gray;*/
+  }
+
+  .arrow-right-card {
+    flex: 0 0 70px;
+    height: 95px;
+    margin-right: 0px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    /*border: 1px solid gray;*/
+  }
+  
